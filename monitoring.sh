@@ -1,16 +1,4 @@
-# **************************************************************************** #
-#                                                                              #
-#                                                         :::      ::::::::    #
-#    monitoring.sh                                      :+:      :+:    :+:    #
-#                                                     +:+ +:+         +:+      #
-#    By: baelgadi <baelgadi@student.42.fr>          +#+  +:+       +#+         #
-#                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2025/06/03 18:23:13 by baelgadi          #+#    #+#              #
-#    Updated: 2025/06/04 00:19:29 by baelgadi         ###   ########.fr        #
-#                                                                              #
-# **************************************************************************** #
-
-#!/bin/bash
+#!/usr/bin/env bash
 
 arch_kernel=$(uname -a)
 printf "#Architecture: $arch_kernel\n"
@@ -26,9 +14,9 @@ mem_total_mb=$(free -m | grep Mem | awk '{print $2}')
 mem_percentage=$(bc <<< "scale=2; $mem_used_mb * 100 / $mem_total_mb")
 printf "#Memory Usage: $mem_used_mb/$mem_total_mb%s ($mem_percentage%%)\n" "MB"
 
-disk_used_val=$(df -h -BG --total | tail -n 1 | awk '{print $3}' | cut -d G -f1)
-disk_total_val=$(df -h -BG --total | tail -n 1 | awk '{print $2}' | cut -d G -f1)
-disk_percentage_val=$(df -h -BG --total | tail -n 1 | awk '{print $5}' | cut -d % -f1)
+disk_used_val=$(df -BG --total | tail -n 1 | awk '{print $3}' | cut -d G -f1)
+disk_total_val=$(df -BG --total | tail -n 1 | awk '{print $2}' | cut -d G -f1)
+disk_percentage_val=$(df -BG --total | tail -n 1 | awk '{print $5}' | cut -d % -f1)
 printf "#Disk Usage: $disk_used_val/$disk_total_val%s ($disk_percentage_val%%)\n" "Gb"
 
 cpu_load=$(mpstat | awk '/all/ { printf "%.2f", 100 - $13 }')

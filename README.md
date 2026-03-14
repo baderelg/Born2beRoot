@@ -1,30 +1,24 @@
 <p align="center">
-  <img src="https://i.imgur.com/ZeWstf3.png" width="150" alt="B2BR Badge With Bonus">
+  <img src="img/project-assets/badge.png" width="150" alt="B2BR Badge With Bonus">
 </p>
 
 <div align="center">
 
 [![42 School](https://img.shields.io/badge/Paris-blue?logo=42&logoColor=fff)](https://42.fr/en/homepage/)
 [![Bonus](https://img.shields.io/badge/✔️_Bonus-5cb85c)](https://github.com/baderelg/Born2beRoot) \
-<img src="https://i.imgur.com/HTci8UV.png" width="100" alt="Validation confirmation on the 42 Intra @baelgadi - Jun 5th 2025"> \
+<img src="img/project-assets/score.png" width="100" alt="Validation confirmation on the 42 Intra @baelgadi - Jun 5th 2025"> \
 [![Validation date](https://img.shields.io/date/1747144800?label=&style=for-the-badge&color=5cb85c)](https://github.com/baderelg/Born2beRoot)
 
 </div>
-
-<h3 align="center">
-  <a href="https://github.com/baderelg/Born2beRoot/tree/main/Evaluation_tips.md">Evaluation Tips (by Mike Ehrmantraut) »</a>
-</h3>
-
-<br>
 
 > [!NOTE]
 > <details>
 > <summary><strong>What is 42?</strong></summary>
 >   
-> > [42 School](https://42.fr/en/homepage/) is a coding school focused on peer to peer learning and being project driven. \
-> > We are given a project, a set of rules and clear objectives, and then it's up to us to figure out how to achieve the goal. \
-> > It pushes to learn how to learn. It may be intense and sometimes frustrating but the sense of accomplishment makes everything worth it. \
-> > Short term comfort is thus sacrificed for long term growth and versatility.
+> > [42 School](https://42.fr/en/homepage/) is a coding school focused on peer to peer learning and being project driven.\
+> > We are given a project, a set of rules and clear objectives, and then it's up to us to figure out how to achieve the goal.\
+> > It pushes you to learn how to learn. It may be intense and sometimes frustrating but the sense of accomplishment makes everything worth it.\
+> > Short term comfort is sacrificed for long term growth and versatility.
 > </details>
 > 
 > <details>
@@ -45,11 +39,12 @@
 > To make the journey entertaining, I chose to approach the project through the eyes and voice of a fictional character.
 > 
 > <details>
-> <summary><strong>Why ?</strong></summary>
-> 
-> > Embodying a character while tackling a project isn't just entertaining, it forges stronger connections with the logic and makes it way more engaging.</br>
-> > When you try expressing what you just learned with the voice of a fictional character, it helps cementing the newly acquired knowledge and even adds new perspectives.</br>
-> > 
+> <summary><strong>Why?</strong></summary>
+>
+> > First and foremost, to avoid boredom. And while this started as just a weird habit, I quickly found it effective at keeping me engaged in the projects.\
+> > Embodying a character while tackling any exercise forges stronger connections with the logic and makes it truly engaging.\
+> Sometimes, it even gives me new perspectives. Who would have thunk?
+> >
 > </details>
 > <details>
 > <summary><strong>Why Saul Goodman?</strong></summary>
@@ -69,7 +64,7 @@
 
 
 <p align="center">
-  <img src="https://i.imgur.com/p8td3QU.png" alt="Its all good man">
+  <img src="img/project-assets/banner.png" alt="Its all good man">
 </p>
 
 > Alright, pull up a chair, let’s talk. You’ve got this… situation. This "Born2BeRoot" affair of yours. Sounds heavy, right? But lemme tell ya, with the right representation - someone I like to call "moi" - we can turn this interrogation into a victory parade. Ready ?
@@ -80,18 +75,18 @@ We're not just gonna pass, we're gonna own this project. Make it sing and dance,
 This is your big debut. Let's get you ready for the spotlight and consider this case file your roadmap to ~~acquittal~~ acclaim.
 
 
-# ⚖️ BETTER CALL SUDO! Your solid defense for B2BR
+# <img src="img/icons/0.png" height="35" alt="Icon"> BETTER CALL SUDO! Your solid defense for B2BR
 
 Imagine this whole Born2BeRoot thing is just like building a fortress.\
 You wouldn't build your dream house on quicksand, would ya ? You need the right materials and a damn good architect who knows where the building inspectors (your evaluators) will poke their noses.
 
-## 🌐 The Off-Shore Account - Setting up your VM
+## <img src="img/icons/1.png" height="30" alt="Icon">ff-Shore Account - Setting up your VM
 
 > First things first, we need a clean and secure place where to conduct our... business.
 
 ### ➢ What in God's name is a VM, Saul?
 
-Think of it like this: Your main computer? That's your home.\
+Your main computer? That's your home.\
 You can't conduct risky experiments in the living room now, would ya? <b>Of course not!</b> You would get spaghetti code all over the good old china.
 
 <b>A Virtual Machine (VM)</b> is your secret lab. A whole damn computer - operating system, hard drive, the works - running inside your actual computer.\
@@ -101,7 +96,7 @@ The beauty of it? If you accidentally, let's say, reformat the "evidence room". 
 <table align="center">
   <tr>
     <td align="center">
-      <img src="https://i.imgur.com/rODg02f.png" alt="VirtualBox" width="400">
+      <img src="img/resources/1.png" alt="VirtualBox" width="400">
     </td>
   </tr>
   <tr>
@@ -111,7 +106,7 @@ The beauty of it? If you accidentally, let's say, reformat the "evidence room". 
   </tr>
 </table>
 
-Think of VirtualBox as the general contractor for this digital hideout we're building.\
+Picture VirtualBox (or UTM since it's allowed now) as the general contractor for this digital hideout we're building.\
 It builds the walls, installs the (virtual) plumbing and makes sure, honest to God, that your little server has a cozy place to live in, completely oblivious that it's just a guest in your physical machine's world...\
 All smoke and mirrors. And it's... beautiful!
 
@@ -126,15 +121,15 @@ This is your <b>Operating System (OS)</b>. The project nudges you towards <b>Deb
     <th align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Rocky_Linux_logo.svg/2048px-Rocky_Linux_logo.svg.png" alt="Rocky" width="20"> Rocky Linux</th>
   </tr>
   <tr>
-    <td align="center">Reliable and time-tested<br>Ideal for 42 projects</td>
+    <td align="center">Battle-tested, been around forever<br>The go-to for 42 projects</td>
     <td align="center">More corporate-oriented</td>
   </tr>
   <tr>
-    <td align="center">Stable, well documented</td>
+    <td align="center">Stable, tons of documentation</td>
     <td align="center">Can be a bit flashier, newer</td>
   </tr>
   <tr>
-    <td align="center">Less friction, more support</td>
+    <td align="center">Less headaches, more community help</td>
     <td align="center">May need more setup effort</td>
   </tr>
 </table>
@@ -149,6 +144,9 @@ Rocky is fine but maybe trying a little too hard. For our purposes Debian is the
 > Unstable versions are always codenamed Sid.\
 > If it's named after another character from Toy Story then it's either stable *(for example debian 12 is Bookworm)* or testing.\
 > [Double check just in case.](https://www.debian.org/releases/)
+
+> [!WARNING]
+> The subject forbids installing any graphical server (X.org, Wayland, or equivalent).
 
 ### ➢ What's in a Name? Everything
 
@@ -168,7 +166,7 @@ TADA!
 Oh and bonus points if you also make sure the name is right in your `/etc/hosts` file.\
 It's good housekeeping and keeps the whole operation smooth.
 
-## 🥧 Slicing the pie - Disk Partitioning & LVM
+## <img src="img/icons/2.png" height="30" alt="Icon">licing the pie - Disk Partitioning & LVM
 
 > Don't get greedy, get smart!
 
@@ -178,7 +176,7 @@ You can't just throw all your files into one big digital shoebox. That's amateur
 ### ➢  Why can't I just dump everything in one big pile, Saul?
 
 Woah there cowboy! Your server your rules, yes, but up to a point.\
-Think of it like your finances: You don't keep your grocery money, your "entertainment" budget and your emergency escape fund all in the same sock under a mattress, now, do you? (if you do, we need to have another talk).
+Very much like your finances: You don't keep your grocery money, your "entertainment" budget and your emergency escape fund all in the same sock under a mattress, now, do you? (if you do, we need to have another talk).
 
 <b>Partitioning</b> is about dividing that disk into logical sections. 
 - One for the OS itself (the `/` or root partition)
@@ -198,7 +196,7 @@ From this pool you can create and resize your partitions however you like.
 Traditional partitioning is like building concrete rooms: you'll need a jackhammer to change it.\
 LVM, on the other hand, adjusts space with a simple swap. Need more room for `/home` or `/var`? No demolition necessary. Just resize on the fly.
 
-## 🦸‍♂️ Who is the boss? - Users and the Almighty root
+## <img src="img/icons/3.png" height="30" alt="Icon">ho is the boss? - Users and the Almighty root
 
 Your server is taking shape. It's got organized storage and now who gets the keys?\
 We need to talk about users and privileges.
@@ -209,7 +207,7 @@ Yes. There is a hierarchy.
 
 - `root` is the CEO. It can do anything. And that's precisely why you don't log in as `root` for everyday tasks.\
 It's too much power, too much risk.\
-One wrong command as `root` and you can accidentally nuke your whole god damn setup. So you better think of `root` as the nuclear launch codes: you keep them locked away until the server starts testifying against you.
+One wrong command as `root` and you can accidentally nuke your whole god damn setup. So your best course is to tread lightly with the nuclear launch codes: you keep them locked away until the server starts testifying against you.
 
 - **regular user accounts**. This is you and your trusted lieutenants, the day to day operators.\
 These users have permissions to do most normal things but they can't, let's say, rip out the server's heart without special permission.\
@@ -219,11 +217,11 @@ It's called **the principle of least privilege**: don't walk around with more po
 
 You may have your users but you can't just have a bunch of lone wolves running around. You need crews, you need **groups**.
 
-Think of it this way: instead of giving every guy a key to every room, you just give him a membership card to a club.\
+Instead of giving every guy a key to every room, you just give him a membership card to a club.\
 The club has the keys.\
 By putting a user in a group, you're giving them all the permissions: revoke someone's club membership and poof, their access is gone, just like that.
 
-For B2BR the subject insists that you create a group called `user42` so think of it as your main crew.\
+For B2BR the subject insists that you create a group called `user42`.\
 You'll need root access to run the necessary commands for creating and assigning groups, but there is another way...
 
 ### ➢  Sudo - The Goodman special
@@ -234,7 +232,7 @@ Do I log in as root? AMATEUR MOVE. Too risky.
 <table align="center">
   <tr>
     <td align="center">
-      <img src="http://i.imgur.com/OyEHGQu.png" alt="SUDO" width="150">
+      <img src="img/resources/2.png" alt="SUDO" width="150">
     </td>
   </tr>
   <tr>
@@ -272,7 +270,7 @@ Defaults log_output
 Defaults iolog_dir=/var/log/sudo/
 
 # Limit the paths used by sudo to run commands. No wandering off into dark alleys
-Defaults secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+Defaults secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"
 
 # Only allow TTY (being logged on a real terminal), we are not animals
 Defaults requiretty
@@ -280,14 +278,14 @@ Defaults requiretty
 
 > [!TIP]
 > If `iolog_dir=/var/log/sudo/` is set and the directory doesn't exist, sudo logging will fail.
-> Create the `var/log/sudo/` directory and set proper permissions to avoid any bad surprise.
+> Create the `/var/log/sudo/` directory and set proper permissions to avoid any bad surprise.
 > ```shell
 > sudo mkdir /var/log/sudo/
 > sudo chown root:root /var/log/sudo/
 > sudo chmod 700 /var/log/sudo/
 > ```
 
-## 📦 Acquiring assets - Package Management with APT
+## <img src="img/icons/4.png" height="30" alt="Icon">quiring assets - Package Management with APT
 
 Alright. You need the right tools for the right job, ok?
 
@@ -296,7 +294,7 @@ In the world of Debian, that means managing software packages, and one of my guy
 
 ### ➢ But Saul, what is this APT?
 
-Think of `apt` (**A**dvanced **P**ackage **T**ool) as my guy on the inside. You tell him what you need (`apt install software`) and he goes out on the field, finds the exact right package, handles all the dependencies (the "friends" he'll need to bring along the way) and gets it installed for ya. Clean, simple, no drama.
+I like to see `apt` (**A**dvanced **P**ackage **T**ool) as my guy on the inside. You tell him what you need (`apt install software`) and he goes out on the field, finds the exact right package, handles all the dependencies (the "friends" he'll need to bring along the way) and gets it installed for ya. Clean, simple, no drama.
 
 He's also the guy you call to update your existing gear (`apt update`).
 
@@ -311,7 +309,7 @@ When you run into a messy situation where two packages have beef (dependency con
 <ins>For B2BR's purposes `apt` is all the muscle we need.</ins> He's reliable, he's straightforward, and he's on every Debian system by default.\
 Stick with it and **K**eep **I**t **S**imple **S**tupid.
 
-## 🚪 The one who knocks - SSH
+## <img src="img/icons/5.png" height="30" alt="Icon">isenberg, the one who knocks - SSH
 
 All users are configured. Great. But it's like having a secret clubhouse with no door.\
 How do you manage it? Tell it what to do? From a distance?\
@@ -324,7 +322,8 @@ It's like whispering secrets in a language only you and the server understand.\
 Username into password and boom. You're in.\
 It's encrypted, authenticated and admissible in court. Capische?
 
-SSH is your encrypted tunnel. Your private secure connection from your computer to the server, even if it's halfway across the world (or just sitting in the virtual window).
+SSH is your encrypted tunnel between the computer and the server.\
+Doesn't matter if it's halfway across the world or just sitting in the virtual window, the connection is locked tight.
 
 ### ➢  Changing ports
 
@@ -333,7 +332,7 @@ Now, by default SSH listens on **port 22**. Every digital peeping Tom knows this
 <table align="center">
   <tr>
     <td align="center">
-      <img src="https://i.imgur.com/ZY0MyeK.png" alt="ROB ME" width="150">
+      <img src="img/resources/3.png" alt="ROB ME" width="150">
     </td>
   </tr>
   <tr>
@@ -346,7 +345,7 @@ Now, by default SSH listens on **port 22**. Every digital peeping Tom knows this
 So what to do, you might ask? <ins>We change the port!</ins>
 
 Just pick a number. something high up and random (but not already used by another service!).\
-Think of it as if you're moving the entrance from Main Street to a door in the back alley, maybe even the one behind that rusty dumpster.\
+Like if you were moving the entrance from Main Street to a door in the back alley, maybe even the one behind that rusty dumpster.\
 Fewer unwanted visitors will find it but a determined adversary can still scan for open ports.\
 Still, it filters out a lot of the automated worthless riff-raff and that's good enough for now.
 
@@ -366,10 +365,10 @@ You'll find a line that says `#Port 22`. First you uncomment it by removing the 
 
 **2- No VIPs even at the backdoor**\
 This one is a non-negotiable by B2BR.\
-Think of `root` as the CEO. You never let the boss use an exposed entrance. It's too risky!\
+Consider `root` the CEO. You never let the boss use an exposed entrance. It's too risky!\
 By setting the rule `PermitRootLogin no` you ensure that it is impossible to log in directly as `root` from the outside.
 
-## 🛡️ YOU SHALL NOT PASS! - UFW
+## <img src="img/icons/6.png" height="30" alt="Icon"> SHALL NOT PASS! - UFW
 
 Your server is now accessible via a secret port. That's nice but the internet is a jungle.\
 A lot of weirdos can try to jiggle your server's doorknobs and we need protection. We need a **firewall**.
@@ -390,7 +389,7 @@ Writing rules into iptables is like arguing a case in latin. But guess what?
 <table align="center">
   <tr>
     <td align="center">
-      <img src="https://i.imgur.com/XI9svyE.png" alt="UFW" width="800">
+      <img src="img/resources/4.png" alt="UFW" width="800">
     </td>
   </tr>
   <tr>
@@ -415,7 +414,7 @@ UFW is your first line of defense. The evaluators WILL test it, trust me!
 - **Allow Web traffic**\
   If you're planning or running a website (doing the bonus) then you'll need to allow traffic on port 80 (HTTP)
   
-## 🕺🏻 U Can’t Touch This - AppArmor
+## <img src="img/icons/6.png" height="30" alt="Icon"> Can’t Touch This - AppArmor
 
 Alright. So now you got UFW watching the door, right? Fantastic.\
 But what about the guys already inside?
@@ -426,12 +425,12 @@ That, my friend, is where **AppArmor** comes in.
 <table align="center">
   <tr>
     <td align="center">
-      <img src="https://i.imgur.com/IHtXsg1.png" alt="AppArmor" width="600">
+      <img src="img/resources/5.png" alt="AppArmor" width="600">
     </td>
   </tr>
   <tr>
     <td align="center">
-        Think of AppArmor as an ankle monitor for every application on your server. </br>Makes sure that no one goes wandering off beyond their boundaries.
+        Picture AppArmor as an ankle monitor for every application on your server. </br>Makes sure that no one goes wandering off beyond their boundaries.
     </td>
   </tr>
 </table>
@@ -454,7 +453,7 @@ Just because it is in the building, it doesn't mean it's armed, you know. Do you
 A sharp evaluator won't just ask you if you have it but they'll want to see that you know it's active and that the correct profiles are loaded in `enforce` mode.\
 So you better check that with `sudo aa-status`. That's the difference between a chump who owns a safe and the guy who owns the building.
 
-## 👨‍⚖️ By order of the Judge  - Strong password policy
+## <img src="img/icons/8.png" height="30" alt="Icon">y order of the Judge  - Strong password policy
 
 Every lock needs a strong key. And no, your birthday or "password" won't do the trick. Not this time.
 
@@ -549,7 +548,7 @@ chage -m 2 user
 And don't forget to do the same with root!\
 Perfect. You're all set and you already have better security than half of Albuquerque.
 
-## 🖥️ The server's snitch  - Monitoring.sh
+## <img src="img/icons/9.png" height="30" alt="Icon">e server's snitch  - Monitoring.sh
 
 Every 10 minutes, the B2BR subject requires your server to shout its vital signs.\
 The `Monitoring.sh` script will be your trusted friend. A snitch that works only for you!
@@ -603,7 +602,7 @@ What kind of dirt does this informant dig up? The juicy stuff.
   </tr>
   <tr>
     <td align="center"><code>#Connections TCP:</code></td>
-    <th align="center">Number of established TCP connections </td>
+    <th align="center">Number of established TCP connections </th>
     <td align="center">Who's talking to your server and on what ports?</br>My guy <code>ss</code> hears everything. It displays Socket Statistics and trust me, it's got options.</td>
   </tr>
   <tr>
@@ -651,13 +650,13 @@ Come on, you've got better things to do like for example... well..Whatever it is
 We need automation! We need CRON.
 
 `cron` is a daemon (basically one of the background worker bees) that runs commands on a schedule that YOU define.\
-Think of it as your own personal "scheduler". A little gnome in the machine that runs tasks for you at specific times.\
+It's your very own personal "scheduler". A little gnome in the machine that runs tasks for you at specific times.\
 Every hour, every day, once a week on Monday... you name it.
 
 <table align="center">
   <tr>
     <td align="center">
-      <img src="https://i.imgur.com/lPujm0n.png" alt="UFW" width="300">
+      <img src="img/resources/6.png" alt="Cron" width="300">
     </td>
   </tr>
   <tr>
@@ -674,8 +673,11 @@ And this is how you actually do it:
 - First, access it by typing `crontab -e` (e is for edit)
 - Add this line
 ```shell
-*/10 * * * * /path_to_your/monitoring.sh | wall
+*/10 * * * * /path_to_your/monitoring.sh 2>/dev/null | wall
 ```
+
+> [!NOTE]
+> The `2>/dev/null` is a precaution just in case, since the subject now says that "No errors should be displayed."
 
 Now the syntax can look a little like some ancient hieroglyphic shenanigans but trust me, you'll get it.
 
@@ -700,9 +702,9 @@ Now the syntax can look a little like some ancient hieroglyphic shenanigans but 
 
 > [!TIP]
 > By the way...
-> Don't forget to `chmod +x monitoring.sh` or you’llook silly during evaluation...
+> Don't forget to `chmod +x monitoring.sh` or you’ll look silly during evaluation...
 
-## 💸 The High roller's suite  - WordPress & friends
+## <img src="img/icons/9.png" height="30" alt="Icon">e High roller's suite  - WordPress & friends
 
 Feeling lucky? Wanna go all the way in?\
 Fine, we'll be building a full-blown web presence then.
@@ -718,7 +720,7 @@ B2BR requires Lighttpd which is a good choice: fast and doesn't hog the resource
 
 - **A Database** (`MariaDB`)\
 WordPress has a lot of... mmm... stuff, yes. Posts, comments, info on users... It needs somewhere to store all of that.\
-MariaDB is reliable and organized. Think of it as your digital filing cabinet.
+MariaDB is reliable and organized.
 
 - **PHP**\
 The translator. The web server speaks one language and WordPress another.\
@@ -733,7 +735,7 @@ After that, you are free to customize your website or not. The subject doesn't r
 <table align="center">
   <tr>
     <td align="center">
-      <img src="https://i.imgur.com/raKsGqd.png" alt="Saul's website" width="500">
+      <img src="img/resources/7.png" alt="Saul's website" width="500">
     </td>
   </tr>
   <tr>
@@ -743,17 +745,16 @@ After that, you are free to customize your website or not. The subject doesn't r
   </tr>
 </table>
 
-
 ---
 
-## Final Word
+## Saul Gone
 
 > So there you have it. It's a lot to take in, I know.\
 > But follow the Goodman plan and you will be golden, my friend.\
 > Now go on, get to it. And remember who to call.
 
 <p align="center">
-  <img src="https://i.imgur.com/l7uDamP.gif" width="500" alt="It's all good, man.">
+  <img src="img/extra/felina.gif" width="500" alt="It's all good, man">
 </p>
 
 <hr>
